@@ -6,11 +6,12 @@ import Header from './shared/Header/Header';
 function App() {
   return (
     <>
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-red-900">
-    Hello world!
-  </h1>
-    </div>
+    <button className="btn btn-active">Button</button>
+<button className="btn btn-active btn-primary">Button</button>
+<button className="btn btn-active btn-secondary">Button</button>
+<button className="btn btn-active btn-accent">Button</button>
+<button className="btn btn-active btn-ghost">Button</button>
+<button className="btn btn-active btn-link">Button</button>
     </>
   );
 }
